@@ -1,6 +1,3 @@
-## [Unrelated post - Connect with me on LinkedIn] 
-[09-01-2023] It's been almost three years since I completed this project and its documentation. Occasionally, I receive connection requests and questions from individuals on LinkedIn. Each time I return to this repository, I'm pleasantly surprised to see people taking an interest in it. This sense of community engagement warms my heart. I wholeheartedly invite all of you who stumble upon this material to connect with me on LinkedIn for any kind of clarifications or questions.
-
 # Recommender-System-on-MovieLens-dataset
 ## Project Overview
 Knowledge-based, Content-based and Collaborative Recommender systems are built on MovieLens dataset with 100,000 movie ratings. These Recommender systems were built using Pandas operations and by fitting KNN, SVD & deep learning models which use NLP techniques and NN architecture to suggest movies for the users based on similar users and for queries specific to genre, user, movie, rating, popularity.
@@ -32,7 +29,7 @@ Knowledge-based, Content-based and Collaborative Recommender systems are built o
 	- [Recommender System using Deep Neural Network (DNN) models](#recommender-system-using-softmax-deep-neural-networks)
   
 
-![GitHub Logo](Images/netflix-recommendation-s.jpeg)
+
 
 
 ## Recommender System Overview
@@ -49,7 +46,7 @@ There are majorly six types of recommender systems which work primarily in the M
 - Utility based recommender system
 
 
-![GitHub Logo](Images/coll-cont-pic.png)
+
 
 
 Recommender System is a vast concept rooted from a base idea of giving out suggestions to the users. There are wide range of algorithms are used to build a recommender system and the type of recommender system used is mostly dictated by the type of data available. In this project, first three of the above recommender systems were built.
@@ -75,7 +72,7 @@ In this project, three of the above recommender systems were build using differe
 * scalability (computation grows as number of users and items grow)
 * pool relationship between like-minded yet sparse users
 
-![GitHub Logo](Images/long-tail.png)
+
 
 Above chart is the distribution of item rating frequency. This distribution often satisfies a property in real-world settings, which is referred to as [the long-tail property [1]](https://www.springer.com/cda/content/document/cda_downloaddocument/9783319296579-c1.pdf?SGWID=0-0-45-1554478-p179516130). According to this property, only a small fraction of the items are rated frequently. Such items are referred to as popular items. The vast majority of items are rated rarely. 
 
@@ -115,19 +112,18 @@ About few components loaded from the package which are used in this project:
 Data has been loaded into dataframes using pandas. It had been analyzed and visualized to draw some key insights before going further into recommendations.
 
 
-![GitHub Logo](Images/bar-plot.PNG)
+
 
 Observation: We can observe that most of the users have rewarded movies they watched with a 4 star rating and followed by 3 star and 5 star.
 
 The same has been displayed below using a pie chart to understand the constributions.
 
 
-![GitHub Logo](Images/pie.PNG)
+
 
 Genre based number of movies count is being plotted using bar-graph:
 
 
-![GitHub Logo](Images/genre-bar-plot.PNG)
 
 We can see that most of the movies belong to movie genre : Drama followed by Comedy then Action, Romance and Thriller
 
